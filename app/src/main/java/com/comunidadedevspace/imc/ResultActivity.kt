@@ -15,7 +15,7 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        val result = intent.getFloatExtra(KEY_RESULT_IMC"fds", 0f)
+        val result = intent.getFloatExtra(KEY_RESULT_IMC, 0f)
 
         val tvResult = findViewById<TextView>(R.id.tv_result)
         val tvClassificacao = findViewById<TextView>(R.id.tv_classificacao)
@@ -23,8 +23,8 @@ class ResultActivity : AppCompatActivity() {
 
         val classificacao: String = if (result <= 18.5f) {
             "MAGREZA"
-        } else if (result > 18.5f) && result <= 24.9f) {
-            "NORMAl"
+        } else if (result > 18.5f && result <= 24.9f) {
+            "NORMAL"
         } else if (result > 25f && result <= 29.9f) {
             "SOBREPESO"
         } else if (result > 30f && result <= 39.9f) {
