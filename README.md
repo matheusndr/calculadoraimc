@@ -1,18 +1,48 @@
-# 📱 BMI Calculator
-This project is a native Android application developed using the Kotlin programming language. Its main functionality is to calculate the BMI and display the result on the next screen.
+# BMI Calculator App
 
-💻 Tecnologias
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white&style=for-the-badge)
+![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white&style=for-the-badge)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/matheusndr/calculadoraimc?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/matheusndr/calculadoraimc?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/matheusndr/calculadoraimc?style=for-the-badge)
 
-✅ Activity
-✅ Intent
-✅ Snackbar
-✅ ViewGroups
-✅ LinearLayout
-✅ ConstraintLayout Views
-✅ ImageView
-✅ TextView
-✅ EditText
-✅ Button
+---
+
+## 📱 Overview
+
+A simple **BMI (Body Mass Index) Calculator** Android app that allows users to quickly calculate their BMI based on weight and height.  
+The app also provides a health status classification according to the BMI result.  
+
+---
+
+## ✨ Features
+
+* Input weight and height to calculate BMI  
+* Automatic BMI calculation with instant result  
+* Health status classification (Underweight, Normal, Overweight, Obese)  
+* Clean and simple user interface  
+* Support for **English** and **Portuguese**  
+
+---
+
+## 🛠️ Tech Stack
+
+* **Kotlin** (programming language)  
+* **Android SDK** (Android development framework)  
+* **Android Studio** (official IDE)  
+* **Material 3** (Material Design for UI components)  
+* **XML layouts** (for the user interface)  
+* **String resources** (for multi-language support: English and Portuguese)  
+
+---
+
+## 🚀 Getting Started
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/matheusndr/calculadoraimc.git
+
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
